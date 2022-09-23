@@ -5,7 +5,7 @@ Requires PHP: 7.0
 Tested up to: 6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: 1.8.48
+Stable tag: 1.8.49
 
 == Description ==
 
@@ -23,6 +23,9 @@ It runs and adds its enhancements only if the Blocksy theme is installed and act
 2. Activate the plugin by going to **Plugins** page in WordPress admin and clicking on **Activate** link.
 
 == Changelog ==
+1.8.49: 2022-09-22
+- Improvement: Better schema.org output for product reviews price and currency
+
 1.8.47: 2022-09-15
 - Improvement: Don't print html tags in OpenGraph output
 - Improvement: Account modal integration with German Market plugin

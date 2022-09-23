@@ -2294,7 +2294,7 @@ msgstr "Выберите список..."
 
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:125
 msgid "This option is available only in Blocksy premium %sversion%s."
-msgstr "Эта опция доступна только в премиальной %sв��рсии%s Blocksy."
+msgstr "Эта опция доступна только в премиальной %sверсии%s Blocksy."
 
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:141
 msgid "More info on how to generate an API key for Mailchimp can be found %shere%s."
@@ -5426,7 +5426,7 @@ msgstr "Анонимизация IP"
 #: framework/features/google-analytics.php:102,
 #: build_tmp/build/framework/features/google-analytics.php:102
 msgid "Enable Google Analytics IP Anonymization for enhanced privacy. More info and instructions can be found %shere%s."
-msgstr "Анонимность IP-адресов для Google Analytics ��ля повышения конфиденциальности. Подробная информация и инструкции %sздесь%s."
+msgstr "Анонимность IP-адресов для Google Analytics для повышения конфиденциальности. Подробная информация и инструкции %sздесь%s."
 
 #: framework/features/opengraph-meta-data.php:17,
 #: build_tmp/build/framework/features/opengraph-meta-data.php:17

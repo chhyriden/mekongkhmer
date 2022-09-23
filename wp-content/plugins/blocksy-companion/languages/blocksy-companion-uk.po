@@ -6136,7 +6136,7 @@ msgstr "Опис"
 #: build_tmp/build/framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:33,
 #: build_tmp/build/framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/view.php:16
 msgid "Enter your email address below to subscribe to our newsletter"
-msgstr "Введіть свою електронну адресу нижче, щоб підписатися на нашу розсилку"
+msgstr "Введіть свою електрон��у адресу нижче, щоб підписатися на нашу розсилку"
 
 #: framework/extensions/newsletter-subscribe/customizer.php:42,
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:46,

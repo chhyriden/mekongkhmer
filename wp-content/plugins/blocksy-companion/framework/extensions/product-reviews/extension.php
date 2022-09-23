@@ -97,9 +97,48 @@ class BlocksyExtensionProductReviews {
 					]);
 
 					if (! empty($product_entity_price)) {
+						$parsed_price = preg_replace(
+							"/[^0-9.,]/",
+							"",
+							$product_entity_price
+						);
+
+						$parsed_currency = preg_replace(
+							"/[0-9.,]/",
+							"",
+							$product_entity_price
+						);
+
 						$offers_contents .= blocksy_html_tag('meta', [
 							'itemprop' => 'price',
-							'content' => $product_entity_price
+							'content' => $parsed_price
+						]);
+
+						$currencies = [
+							'$' => 'USD',
+							'€' => 'EUR',
+							'₡' => 'CRC',
+							'£' => 'GBP',
+							'₪' => 'ILS',
+							'₹' => 'INR',
+							'¥' => 'JPY',
+							'₩' => 'KRW',
+							'₦' => 'NGN',
+							'₱' => 'PHP',
+							'zł' => 'PLN',
+							'₲' => 'PYG',
+							'฿' => 'THB',
+							'₴' => 'UAH',
+							'₫' => 'VND'
+						];
+
+						if ($parsed_currency && isset($currencies[$parsed_currency])) {
+							$parsed_currency = $currencies[$parsed_currency];
+						}
+
+						$offers_contents .= blocksy_html_tag('meta', [
+							'itemprop' => 'priceCurrency',
+							'content' => $parsed_currency
 						]);
 					}
 
@@ -219,24 +258,24 @@ class BlocksyExtensionProductReviews {
 							'design' => 'inline',
 							'divider' => 'top:full',
 							'setting' => [ 'transport' => 'postMessage' ],
-		
+
 							'value' => [
 								'default' => [
 									'color' => Blocksy_Css_Injector::get_skip_rule_keyword('DEFAULT'),
 								],
-		
+
 								'inactive' => [
 									'color' => Blocksy_Css_Injector::get_skip_rule_keyword('DEFAULT'),
 								],
 							],
-		
+
 							'pickers' => [
 								[
 									'title' => __( 'Active', 'blocksy-companion' ),
 									'id' => 'default',
 									'inherit' => '#FDA256'
 								],
-		
+
 								[
 									'title' => __( 'Inactive', 'blocksy-companion' ),
 									'id' => 'inactive',
@@ -246,7 +285,7 @@ class BlocksyExtensionProductReviews {
 						]
 					]
 				];
-				
+
 				return $opts;
 			},
 			10, 2

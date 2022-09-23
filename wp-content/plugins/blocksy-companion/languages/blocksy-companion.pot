@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-09-15 20:19+0000\n"
+"POT-Creation-Date: 2022-09-22 15:21+0000\n"
 "Project-Id-Version: undefined\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
@@ -550,7 +550,7 @@ msgstr ""
 
 #: framework/extensions/cookies-consent/customizer.php:15,
 #: framework/extensions/newsletter-subscribe/customizer.php:12,
-#: framework/extensions/product-reviews/extension.php:343,
+#: framework/extensions/product-reviews/extension.php:382,
 #: framework/extensions/product-reviews/metabox.php:6,
 #: framework/extensions/trending/customizer.php:110,
 #: framework/premium/extensions/mega-menu/options.php:6,
@@ -691,7 +691,7 @@ msgstr ""
 
 #: framework/extensions/cookies-consent/customizer.php:142,
 #: framework/extensions/newsletter-subscribe/customizer.php:147,
-#: framework/extensions/product-reviews/extension.php:383,
+#: framework/extensions/product-reviews/extension.php:422,
 #: framework/extensions/trending/customizer.php:333,
 #: framework/premium/extensions/mega-menu/options.php:526,
 #: framework/premium/extensions/shortcuts/customizer.php:778,
@@ -1294,153 +1294,153 @@ msgid ""
 "affiliate links to direct your readers to the purchase page."
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:217,
-#: framework/extensions/product-reviews/extension.php:388
+#: framework/extensions/product-reviews/extension.php:256,
+#: framework/extensions/product-reviews/extension.php:427
 msgid "Star Rating Color"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:235,
-#: framework/extensions/product-reviews/extension.php:405,
-#: framework/extensions/product-reviews/extension.php:433,
-#: framework/extensions/product-reviews/extension.php:454,
+#: framework/extensions/product-reviews/extension.php:274,
+#: framework/extensions/product-reviews/extension.php:444,
+#: framework/extensions/product-reviews/extension.php:472,
+#: framework/extensions/product-reviews/extension.php:493,
 #: framework/premium/extensions/mega-menu/options.php:792
 msgid "Active"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:241,
-#: framework/extensions/product-reviews/extension.php:411
+#: framework/extensions/product-reviews/extension.php:280,
+#: framework/extensions/product-reviews/extension.php:450
 msgid "Inactive"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:279,
+#: framework/extensions/product-reviews/extension.php:318,
 #: framework/extensions/product-reviews/views/single-top.php:139
 msgid "Overall Score"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:337
+#: framework/extensions/product-reviews/extension.php:376
 msgid "Review Summary"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:348
+#: framework/extensions/product-reviews/extension.php:387
 msgid "Scores Box Width"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:358
+#: framework/extensions/product-reviews/extension.php:397
 msgid "Read More Button"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:369
+#: framework/extensions/product-reviews/extension.php:408
 msgid "Buy Now Button"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:419
+#: framework/extensions/product-reviews/extension.php:458
 msgid "Overll Score Text"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:441
+#: framework/extensions/product-reviews/extension.php:480
 msgid "Overll Score Background"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:501,
-#: framework/extensions/product-reviews/extension.php:502,
-#: framework/extensions/product-reviews/extension.php:505,
-#: framework/extensions/product-reviews/extension.php:507
+#: framework/extensions/product-reviews/extension.php:540,
+#: framework/extensions/product-reviews/extension.php:541,
+#: framework/extensions/product-reviews/extension.php:544,
+#: framework/extensions/product-reviews/extension.php:546
 msgid "Product Reviews"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:506
+#: framework/extensions/product-reviews/extension.php:545
 msgid "Product Review"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:508
+#: framework/extensions/product-reviews/extension.php:547
 msgid "Parent Product Review"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:509
+#: framework/extensions/product-reviews/extension.php:548
 msgid "All Reviews"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:510
+#: framework/extensions/product-reviews/extension.php:549
 msgid "View Product Review"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:511
+#: framework/extensions/product-reviews/extension.php:550
 msgid "Add New Product Review"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:512
+#: framework/extensions/product-reviews/extension.php:551
 msgid "Add New Review"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:513
+#: framework/extensions/product-reviews/extension.php:552
 msgid "Edit Product Review"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:514
+#: framework/extensions/product-reviews/extension.php:553
 msgid "Update Product Review"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:515
+#: framework/extensions/product-reviews/extension.php:554
 msgid "Search Product Review"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:516
+#: framework/extensions/product-reviews/extension.php:555
 msgid "Not Found"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:517
+#: framework/extensions/product-reviews/extension.php:556
 msgid "Not found in Trash"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:551,
-#: framework/extensions/product-reviews/extension.php:561
+#: framework/extensions/product-reviews/extension.php:590,
+#: framework/extensions/product-reviews/extension.php:600
 msgid "Categories"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:552,
+#: framework/extensions/product-reviews/extension.php:591,
 #: framework/extensions/trending/customizer.php:35,
 #: framework/extensions/widgets/widgets/ct-posts/options.php:37
 msgid "Category"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:553
+#: framework/extensions/product-reviews/extension.php:592
 msgid "Search Category"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:554
+#: framework/extensions/product-reviews/extension.php:593
 msgid "All Categories"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:555
+#: framework/extensions/product-reviews/extension.php:594
 msgid "Parent Category"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:556
+#: framework/extensions/product-reviews/extension.php:595
 msgid "Parent Category:"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:557
+#: framework/extensions/product-reviews/extension.php:596
 msgid "Edit Category"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:558
+#: framework/extensions/product-reviews/extension.php:597
 msgid "Update Category"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:559
+#: framework/extensions/product-reviews/extension.php:598
 msgid "Add New Category"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:560
+#: framework/extensions/product-reviews/extension.php:599
 msgid "New Category Name"
 msgstr ""
 
 #. translators: %s is the theme name.
-#: framework/extensions/product-reviews/extension.php:579
+#: framework/extensions/product-reviews/extension.php:618
 msgid "%s Settings"
 msgstr ""
 
-#: framework/extensions/product-reviews/extension.php:580
+#: framework/extensions/product-reviews/extension.php:619
 msgid "Blocksy"
 msgstr ""
 
